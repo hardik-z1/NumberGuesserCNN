@@ -3,5 +3,5 @@ tensorflow>=2.11
 numpy
 Pillow
 matplotlib
-opencv-python-headless
+opencv-python-headless==4.8.0.74
 streamlit-drawable-canvas
