@@ -1,80 +1,79 @@
----
-title: MNIST Digit Classifier
-emoji: 🔢
-colorFrom: indigo
-colorTo: pink
-sdk: streamlit
-sdk_version: "1.33.0"
-app_file: app.py
-pinned: false
----
-
-# 🧠 MNIST Digit Classifier - Streamlit App
-
-A clean and interactive Streamlit app that lets you **draw a digit (0–9)** and get a **real-time prediction** from a Convolutional Neural Network trained on the MNIST dataset.
+# 🎲 Number Gusser CNN 🎲
+An interactive Streamlit app that lets you **draw a digit (0–9)** and get real-time predictions from a Convolutional Neural Network trained on the MNIST dataset.
 
 ---
 
 ## 🚀 Live Demo
 
-[Click here to try the app](https://huggingface.co/spaces/your-username/mnist-digit-classifier)
+Try the app here: [Number Gusser CNN on Hugging Face Spaces]([https://huggingface.co/spaces/your-username/mnist-digit-classifier](https://huggingface.co/spaces/Hardik-z1/NumberGuesserCNN))  
 
 ---
 
-## 🧩 Features
+## ✨ Features
 
-- ✍️ Freehand drawing canvas
-- 🔢 Real-time digit classification
-- 📈 Horizontal confidence bar chart
-- 🧠 Auto-cropping, centering, and padding
-- 🌐 Deployed on Hugging Face Spaces
-
----
-
-## 📦 Tech Stack
-
-- TensorFlow / Keras
-- OpenCV
-- Streamlit
-- Matplotlib
-- streamlit-drawable-canvas
+- Freehand canvas to draw digits
+- Real-time digit prediction
+- Bar chart for confidence visualization
+- Custom pre-processing (cropping, padding, centering)
 
 ---
 
-## 📁 Project Structure
-├── app.py
-├── requirements.txt
-├── best_mnist_model2.h5
+## 🛠️ Built With
+
+- **Streamlit** – for the UI
+- **TensorFlow/Keras** – for training and inference
+- **OpenCV** – for image processing
+- **Matplotlib** – for plotting prediction confidences
+
+---
+
+## 📁 Folder Structure
+├── app.py # Main Streamlit application
+├── requirements.txt # Python dependencies
+├── best_mnist_model2.h5 # Trained CNN model
 └── README.md
 
 
 ---
 
-## 🧠 How It Works
+## 🎲 How It Works
 
-1. User draws a digit
-2. Image is cleaned, centered, padded, resized to 28×28
-3. CNN model predicts digit class + confidence
-4. Result and confidence bar chart are shown
-
----
-
-## ✨ Future Ideas
-
-- Add support for EMNIST (letters)
-- Enable webcam-based digit input
-- Auto-clear canvas after prediction
+1. User draws a digit on canvas
+2. Image is:
+   - Converted to grayscale
+   - Auto-cropped, padded, and resized to 28x28
+3. Model trained on the MNIST dataset predicts the digit with probabilities
+4. Prediction and confidence bar chart are displayed
 
 ---
 
-## 🙌 Author
+## 💾 Model
 
-**Zesha (Zeno Kiv)**  
-CSE + ML + Robotics  
-Built during NullClass training
+- Dataset: MNIST (28×28 grayscale digits)
+- Accuracy: ~99.2% on validation
+- Architecture: 2 Conv blocks + Dropout + Dense layer
 
 ---
 
-## 📜 License
+## ⚙️ Run Locally
 
-MIT
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/your-username/mnist-digit-classifier.git
+cd mnist-digit-classifier
+```
+
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Launch the app
+```bash
+streamlit run app.py
+```
+
+Author
+Hardik (hardik_z1)
+CSE student • ML & Robotics enthusiast
