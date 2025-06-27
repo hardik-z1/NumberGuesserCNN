@@ -7,8 +7,6 @@ An interactive Streamlit app that lets you **draw a digit (0–9)** and get real
 
 Try the app here: [Number Gusser CNN on Hugging Face Spaces](https://huggingface.co/spaces/Hardik-z1/NumberGuesserCNN)
 
-_[https://huggingface.co/spaces/Hardik-z1/NumberGuesserCNN](https://huggingface.co/spaces/Hardik-z1/NumberGuesserCNN)_
-
 ---
 
 ## ✨ Features
