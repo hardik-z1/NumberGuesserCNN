@@ -74,6 +74,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Author
-Hardik (hardik_z1)
+Author  
+[Hardik (hardik_z1)](https://github.com/hardik-z1/)  
 CSE student • ML & Robotics enthusiast
