@@ -27,11 +27,11 @@ Try the app here: [Number Gusser CNN on Hugging Face Spaces](https://huggingface
 
 ---
 
-## 📁 Folder Structure
-├── app.py # Main Streamlit application
-├── requirements.txt # Python dependencies
-├── best_mnist_model2.h5 # Trained CNN model
-└── README.md
+## 📁 Folder Structure\n
+├── app.py # Main Streamlit application\n
+├── requirements.txt # Python dependencies\n
+├── best_mnist_model2.h5 # Trained CNN model\n
+└── README.md\n
 
 
 ---
@@ -49,7 +49,7 @@ Try the app here: [Number Gusser CNN on Hugging Face Spaces](https://huggingface
 
 ## 💾 Model
 
-- Dataset: MNIST (28×28 grayscale digits)
+- Dataset: MNIST (70000 samples of [28×28] grayscale digits)
 - Accuracy: ~99.2% on validation
 - Architecture: 2 Conv blocks + Dropout + Dense layer
 
