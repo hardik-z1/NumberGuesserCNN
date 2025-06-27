@@ -27,11 +27,11 @@ Try the app here: [Number Gusser CNN on Hugging Face Spaces](https://huggingface
 
 ---
 
-## 📁 Folder Structure\n
-├── app.py # Main Streamlit application\n
-├── requirements.txt # Python dependencies\n
-├── best_mnist_model2.h5 # Trained CNN model\n
-└── README.md\n
+## 📁 Folder Structure  
+├── app.py # Main Streamlit application  
+├── requirements.txt # Python dependencies  
+├── best_mnist_model2.h5 # Trained CNN model  
+└── README.md  
 
 
 ---
