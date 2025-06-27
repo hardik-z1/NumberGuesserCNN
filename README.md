@@ -28,10 +28,10 @@ Try the app here: [Number Gusser CNN on Hugging Face Spaces](https://huggingface
 ---
 
 ## 📁 Folder Structure  
-├── app.py # Main Streamlit application  
-├── requirements.txt # Python dependencies  
-├── best_mnist_model2.h5 # Trained CNN model  
-└── README.md  
+├── app.py                # Main Streamlit application  
+├── requirements.txt      # Python dependencies  
+├── best_mnist_model2.h5  # Trained CNN model  
+└── README.md             # Info
 
 
 ---
